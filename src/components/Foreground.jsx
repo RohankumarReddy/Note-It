@@ -1,7 +1,7 @@
 // File: src/components/Foreground.jsx
 import React, { useRef, useState } from "react";
 import { FaPlus } from "react-icons/fa";
-import Card from "./Card.jsx"; // Import the Card component
+import Card from "./Card.jsx"; /
 
 const Foreground = () => {
   const constraintsRef = useRef(null);
@@ -41,7 +41,6 @@ const Foreground = () => {
 
   return (
     <>
-      {/* Button to add a new note */}
       <button
         onClick={handleAddCard}
         className="fixed top-9 left-5  z-[100] p-4 bg-zinc-600 text-white rounded-full shadow-lg hover:bg-zinc-500 transition-colors"
@@ -50,7 +49,6 @@ const Foreground = () => {
         <FaPlus />
       </button>
 
-      {/* This is the area where cards can be dragged */}
       <div
         ref={constraintsRef}
         className="fixed inset-0 z-10 flex flex-wrap gap-6 p-5"

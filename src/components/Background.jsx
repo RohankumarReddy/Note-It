@@ -1,4 +1,3 @@
-// File: src/components/Background.jsx
 import React from 'react';
 
 const Background = () => {
