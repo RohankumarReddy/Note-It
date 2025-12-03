@@ -1,7 +1,6 @@
-// File: src/components/Foreground.jsx
 import React, { useRef, useState } from "react";
 import { FaPlus } from "react-icons/fa";
-import Card from "./Card.jsx"; /
+import Card from "./Card.jsx"; 
 
 const Foreground = () => {
   const constraintsRef = useRef(null);
