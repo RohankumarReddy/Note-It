@@ -1,16 +1,65 @@
-<<<<<<< HEAD
-# React + Vite
+<p align="center">
+  <img src="https://64.media.tumblr.com/aec073f16d09e2ad3a8c42a05f53c08f/4f1927cb0c07a80f-c1/s2048x3072_c1852,0,97963,100000/428b3c889842b1f9c739f2c604801b9b71c3fc57.gif" 
+       alt="Docs Manager Preview"
+       width="480">
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1 align="center">NoteIt – Stay organized. Never <strong>forget</strong>.</h1>
 
-Currently, two official plugins are available:
+<p align="center">
+  A modern and minimal document management web application built using React, Vite, Tailwind CSS, and Framer Motion.<br>
+  This project enables users to create, categorize, and manage documents with a clean and responsive interface.
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p align="center">
+  <img src="https://img.shields.io/badge/Vite-7.1.2-646CFF?logo=vite" />
+  <img src="https://img.shields.io/badge/React-19-61DAFB?logo=react" />
+  <img src="https://img.shields.io/badge/TailwindCSS-3.4-38B2AC?logo=tailwindcss" />
+</p>
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Note-It
->>>>>>> c3d149658aaca8159baad0f1b2639542c4e77ead
+## Application Preview
+
+<p align="center">
+  <img src="./NoteIt.png" alt="Docs Manager UI" width="820">
+</p>
+
+<p align="center">
+  <i>The interface screenshot appears large because it was captured directly from a laptop display.</i>
+</p>
+
+---
+
+## Features
+
+- Create and store documents with titles and descriptions
+- Delete documents with a single click
+- Fully responsive layout
+- Smooth animations powered by Framer Motion
+- Clean and modern UI theme
+
+---
+
+## Tech Stack
+
+| Technology        | Purpose                                   |
+|------------------|-------------------------------------------|
+| React 19         | Frontend framework                        |
+| Vite 7           | Development server & build tool           |
+| Tailwind CSS     | Utility-first styling                     |
+| Framer Motion    | Animations and transitions                |
+| React Router DOM | Application routing                       |
+
+---
+
+##  How to Run the Project
+
+Follow these steps to run **NoteIt** locally:
+
+###  Clone the Repository
+```bash
+git clone https://github.com/RohankumarReddy/NoteIt.git
+cd NoteIt
+npm run dev
+
